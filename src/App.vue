@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Title from './components/Title.vue'
-import ImageVue from './components/Hero.vue'
+import Title from './components/title.vue'
+import ImageVue from './components/hero.vue'
 export default {
   name: 'App',
   components: {
