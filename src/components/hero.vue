@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ msg }}</h1>
+    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg">
   </div>
 </template>
 
@@ -8,15 +8,16 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-  h1 {
-   color: #2c3e50;
-   font-size: 60px;
+  img{
+    width: 400px;
+    border: 2px solid red;
+    height: 300px;
   }
 </style>

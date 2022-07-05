@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <Title msg="La mia prima app con Vue CLI!"/>
-    <ImageVue />
+    <Title></Title>
+    <ImageVue/>
   </div>
 </template>
 
 <script>
-import Title from './components/title.vue'
 import ImageVue from './components/hero.vue'
+import Title from './components/title.vue'
 export default {
   name: 'App',
   components: {
-    Title,
-    ImageVue
-  }
+    ImageVue,
+    Title
+}
 }
 </script>
 
@@ -25,5 +25,7 @@ export default {
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
+    border: 1px black solid;
+    height: 400px;
   }
 </style>
